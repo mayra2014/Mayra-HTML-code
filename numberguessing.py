@@ -1,10 +1,10 @@
 import random
 def guess_number():
-    computer=random.randint(1,100)
+    computer=random.randint(1,1000)
     attempts=0
     guess=None
     print("Welcome to the Number Guessing Game!")
-    print("I have selected a number between 1 and 100.")
+    print("I have selected a number between 1 and 1000.")
     while guess != computer:
         try:
             guess=int(input("Please enter your guess, lets see if its correct!:"))
